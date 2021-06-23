@@ -1,7 +1,9 @@
+import java.util.*;
 class sum{
 	public static void public static void main(String[] args) {
-		System.out.println(10);
-		System.out.println(11);
-		System.out.println(12);
+		Scanner sc=new Scanner(System.in);
+		int num1=sc.nextInt();
+		int num2=sc.nextInt();
+		System.out.println(num1+num2);
 	}
 }
